@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hodan Guest Hose | Ballansiga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header class="site-header">
+        <div class="nav-wrapper">
+            <a href="index.html" class="logo">🏝 Hodan <span>Guest Hose</span></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Guriga</a></li>
+                    <li><a href="rooms.html">Qolalka</a></li>
+                    <li><a href="booking.html">Ballansiga</a></li>
+                    <li><a href="about.html" class="active">Nagu saabsan</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" style="min-height: 50vh;">
+        <div class="hero-content">
+            <h1>Ballansi Qolkaaga</h1>
+            <p>Buuxi foomka hoose-waxaan kula soo xiriiri doonaa muddo gaaban gudahood.</p>
+          </div>
+    </section>
+    <main>
+        <section id="booking-form">
+            <div class="container">
+                <div class="form-wrapper">
+                    <form class="validate-form" action="#" method="post">
+                        <fieldset>
+                            <legend>Xog Shakhsi ah</legend>
+                            <div class="form-grid">
+                                <div class="field-group">
+                                    <label for="fullname">Magaca Buuxa *</label>
+                                    <input type="text" name="fullname" id="fullname" placeholder="Tusaale:Faarax Cabdi Nuur" required minlength="4">
+                                  </div>
+                                  <div class="field-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+                                  </div>
+                                  <div class="field-group">
+                                    <label for="phone">Lambarka Teleefanka *</label>
+                                    <input type="tel" name="phone" id="phone" placeholder="+252 6x xxx xxxx">
+                                  </div>
+                                   <div class="field-group">
+                                    <label for="password">Abuur Password (Account-kaaga)*</label>
+                                    <input type="password" name="password" id="password" placeholder="Uga yaraan 6 xaraf" required minlength="6">
+                                 </div>
+                                </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Faafaahinta Ballansiga</legend>
+                            <div class="form-grid">
+                                <div class="field-group">
+                                <label for="room-type">Nooca Qolka *</label>
+                                <select name="room-type" id="room-type" required>
+                                    <option value="">--Dooro Qolka-- </option>
+                                    <option value="standard">Qolka Caadiga ah- $25</option>
+                                    <option value="deluxe">Qolka Deluxe- $45</option>
+                                    <option value="family">Family Suite- $70</option>
+                                </select>
+                            </div>
+                            <div class="field-group">
+                                <label for="guests">Tirada Martida *</label>
+                                <input type="number" name="guests" id="guests" min="1" max="4" required>
+                            </div>
+                            <div class="field-group">
+                                <label for="checkin">Taariikhda Galitaanka *</label>
+                                <input type="date" name="checkin" id="checkin" required>
+                            </div>
+                            <div class="field-group">
+                                <label for="checkout">Taariikhda Bixitaanka *</label>
+                                <input type="date" name="checkout" id="checkout" required>
+                            </div>
+                            </div>
+                            <div class="field-group fuul">
+                                <label>Habka Lacag-bixitaanka *</label>
+                                <div class="radio-row">
+                                    <label><input type="radio" name="payment" value="cash" required>Lacag Caddaan ah</label>
+                                    <label><input type="radio" name="payment" value="mobile">Mobile Money (EVC/Zaad)</label>
+                                    <label><input type="radio" name="payment" value="card">Kaarka Bangiga</label>
+                                </div>
+                            </div>
+                            <div class="field-group fuul">
+                                <label>Adeegyo Dheeraad ah</label>
+                                <div class="checkbox-row">
+                                    <label><input type="checkbox" name="extrs" value="breakfast">Quraac</label>
+                                    <label><input type="checkbox" name="extrs" value="airport">Soo qaad Garoonka</label>
+                                    <label><input type="checkbox" name="extrs" value="laundry">Dhar-dhaqid</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Fariin Dheeraad ah</legend>
+                            <div class="field-group fuul">
+                                <label for="message">Su'aal ama Dalbasho Gaar ah</label>
+                                <textarea name="message" id="message" placeholder="Tussale:waxa aan rabaa qol aan xeebta ka arki karo..."></textarea>
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="btn">Dir Codsiga Ballansiga</button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="bg-alt">
+            <div class="container" style="text-align: center;">
+                <span class="eyebrow">Talo</span>
+                <h2 class="section-title">Su'aal Ballansiga ah?</h2>
+                <div class="divider"></div>
+                <p class="section-sub">Hadii aad qabto su'aalo ku saabsan Ballansiga,nala soo xiriir tooska ah:</p>
+                <p style="font-weight: 600;">📞 +252 60 000 0000 &nbsp; |&nbsp; 📧 booking@hodangusthouse.so</p>
+            </div>
+        </section>
+    </main>
+     <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Hodan Guest House</h4>
+                    <p>Martisaar raaxo iyo deggenaan leh- meeshaada ku noqoshada xeebta Muqdisho.</p>
+            </div>
+            <div>
+                <h4>Khariidada</h4>
+                <ul>
+                    <li><a href="index.html">Guriga</a></li>
+                    <li><a href="rooms.html">Qolalka</a></li>
+                    <li><a href="booking.html">Ballansiga</a></li>
+                    <li><a href="about.html">Nagu saabsan</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Adeegyada</h4>
+                <ul>
+                    <li>Wifi Bilaash ah</li>
+                    <li>Barxad dabaasha</li>
+                    <li>Maqaaxi</li>
+                </ul>
+            </div>
+            <div>
+            <h4>Nagala soo xiriir</h4>
+            <ul>
+                <li>📍 xeebta Liido, Muqdisho</li>
+                <li>📞 +252 60 000 0000</li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer-bottom">
+            &copy;2026 Hodan Guest House. Dhammaan xuquuqdu way dhowran tahay.
+        </div>
+        </div>
+        </footer>
+</body>
+</html>
